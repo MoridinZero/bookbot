@@ -1,2 +1,10 @@
 books/
+*.py[cod]
 __pycache__/
+*$py.class
+
+venv/
+env/
+
+.vscode/
+
