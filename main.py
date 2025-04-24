@@ -2,6 +2,7 @@ def get_book_text(filepath):
     with open(filepath) as file:
         file_contents = file.read()
     return file_contents
+
 def get_num_words(file_contents):
     words = file_contents.split()
     total_words = 0
